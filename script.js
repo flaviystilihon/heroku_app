@@ -1,5 +1,5 @@
 const http = require('http')
-const port = 5000
+const port = process.env.PORT
 
 const requestHandler = (request, response) => {
   console.log(request.url)
